@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f2ff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #005f99;
+}
+
+nav a {
+  padding: 15px 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #004d80;
+}
+
+main {
+  padding: 40px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+}
+.alert {
+  padding: 12px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  margin-top: 10px;
+  width: fit-content;
+}
+
+/* ---------------------container-------------------------------- */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------------------btn-------------------------------- */
+.btn {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px 10px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+.btn-them {
+  background-color: #0cd738;
+}
+.btn-sua {
+  background-color: #f5f907;
+}
+.btn-xoa {
+  background-color: #ff4d4d;
+}
+.btn-timkiem {
+  background-color: #1fa1dd;
+}
+
+/* ---------------------input-------------------------------- */
+input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+/* --------------------table -------------------*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table > tbody > tr > td > img {
+  width: 100px;
+  height: 70px;
+}
+
+form table {
+  margin: 0 auto;
+  width: 50%;
+}
+
+form td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+
+form input[type="text"],
+input[type="number"],
+select,
+textarea,
+input[type="file"],
+input[type="date"],
+input[type="email"],
+input[type="password"] {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+/* --------------------top-action-------------------*/
+.top-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
